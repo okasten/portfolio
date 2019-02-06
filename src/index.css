@@ -9,6 +9,7 @@ body {
   background-color: #f2f2f2;
   overflow-y: scroll;
   height: 4000px;
+  max-width: 100%;
 }
 
 code {
