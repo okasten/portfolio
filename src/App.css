@@ -142,11 +142,27 @@ a:hover {
 .contactInfo {
   background-color: rgba(0, 193, 212, 1);
   padding: 50px 40px 40px 30px;
-  top: 80%;
+  top: 60%;
   left: 30%;
   width: 40%;
   position: absolute;
   display: inline-grid;
   border: 10px white solid;
   border-radius: 10px;
+}
+
+.aboutMeImg {
+  margin-top: 50px;
+  height: 33%;
+  width: 33%;
+  display: block;
+}
+
+.aboutMeText {
+  font-family: "Poppins", sans-serif;
+  margin-top: 20px;
+  padding: 0% 10%;
+  width: 70%;
+  text-align: center;
+  font-size: 18px;
 }

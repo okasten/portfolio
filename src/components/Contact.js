@@ -4,7 +4,7 @@ export default class Contact extends Component {
   render() {
     return (
       <div className="pageHeaders">
-        <h1>Contact Me</h1>
+        <h1>Reach Out</h1>
         <br />
         <div className="contactInfo contactMe">
           <h3>odkasten@gmail.com</h3>

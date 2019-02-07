@@ -13,7 +13,7 @@ export default class Navbar extends Component {
         </Nav.Item>
         <Nav.Item>
           <Link to="/about" className="navbarText">
-            About
+            About Me
           </Link>
         </Nav.Item>
         <Nav.Item>
