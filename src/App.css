@@ -126,3 +126,17 @@ a:hover {
   position: fixed;
   width: 100%;
 }
+
+.pageHeaders {
+  top: 8%;
+  width: 100%;
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  font-size: 80px;
+}
+
+.resume {
+  position: absolute;
+  align-content: center;
+  top: 20%;
+}

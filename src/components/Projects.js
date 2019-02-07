@@ -2,6 +2,10 @@ import React, { Component } from "react";
 
 export default class Projects extends Component {
   render() {
-    return <h1> Projects</h1>;
+    return (
+      <div className="pageHeaders">
+        <h1>My Projects</h1>
+      </div>
+    );
   }
 }

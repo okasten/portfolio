@@ -2,6 +2,10 @@ import React, { Component } from "react";
 
 export default class Contact extends Component {
   render() {
-    return <h1> CONTACT ME</h1>;
+    return (
+      <div className="pageHeaders">
+        <h1>Contact Me</h1>
+      </div>
+    );
   }
 }
