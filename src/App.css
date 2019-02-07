@@ -61,12 +61,21 @@
 }
 
 .quickAboutMe {
-  top: 95%;
+  top: 105%;
   left: 10%;
   max-width: 100%;
   position: absolute;
   display: inline-flex;
   margin-bottom: 40px;
+}
+.welcome {
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  top: 90%;
+  margin: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 60px;
 }
 .quickAboutMeText {
   font-family: "Poppins", sans-serif;
