@@ -100,8 +100,6 @@
   color: white;
   font-size: 25px;
   width: 100%;
-  /* border: 1px solid white;
-  border-radius: 5px; */
   padding: 20px 40px;
 }
 .navbarText {
@@ -128,7 +126,7 @@ a:hover {
 }
 
 .pageHeaders {
-  top: 8%;
+  top: 10%;
   width: 100%;
   position: absolute;
   font-family: "Poppins", sans-serif;
@@ -139,4 +137,16 @@ a:hover {
   position: absolute;
   align-content: center;
   top: 20%;
+}
+
+.contactInfo {
+  background-color: rgba(0, 193, 212, 1);
+  padding: 50px 40px 40px 30px;
+  top: 80%;
+  left: 30%;
+  width: 40%;
+  position: absolute;
+  display: inline-grid;
+  border: 10px white solid;
+  border-radius: 10px;
 }

@@ -6,7 +6,9 @@ export default class Resume extends Component {
     return (
       <div className="pageHeaders">
         <h1>Resume</h1>
-        <object alt="resume" data={resume} width="800" height="575" />
+        <object alt="resume" data={resume} width="800" height="575">
+          {" "}
+        </object>
       </div>
     );
   }
