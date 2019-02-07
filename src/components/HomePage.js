@@ -9,7 +9,7 @@ export default class HomePage extends Component {
           <img
             className="homePageImg"
             alt="background"
-            src="https://farm7.staticflickr.com/6061/6044505487_41be6f9241_b.jpg"
+            src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
           />
           <div className="homePageText">
             <h1>Olivia Kasten</h1>

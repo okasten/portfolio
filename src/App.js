@@ -6,6 +6,7 @@ import Projects from "./components/Projects";
 import Resume from "./components/Resume";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
+import BottomNav from "./components/BottomNav";
 import "./App.css";
 
 class App extends Component {
@@ -20,6 +21,7 @@ class App extends Component {
           <Route path="/contact" component={Contact} />
           <Route path="/" exact component={HomePage} />
         </Switch>
+        <BottomNav />
       </div>
     );
   }

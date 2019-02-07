@@ -7,19 +7,29 @@ export default class Navbar extends Component {
     return (
       <Nav className="navbar">
         <Nav.Item>
-          <Link to="/">Home</Link>
+          <Link to="/" className="navbarText">
+            Home
+          </Link>
         </Nav.Item>
         <Nav.Item>
-          <Link to="/about">About</Link>
+          <Link to="/about" className="navbarText">
+            About
+          </Link>
         </Nav.Item>
         <Nav.Item>
-          <Link to="/projects">Projects</Link>
+          <Link to="/projects" className="navbarText">
+            Projects
+          </Link>
         </Nav.Item>
         <Nav.Item>
-          <Link to="/resume">Resume</Link>
+          <Link to="/resume" className="navbarText">
+            Resume
+          </Link>
         </Nav.Item>
         <Nav.Item>
-          <Link to="/contact">Contact</Link>
+          <Link to="/contact" className="navbarText">
+            Contact
+          </Link>
         </Nav.Item>
       </Nav>
     );

@@ -17,8 +17,8 @@ export default class QuickAboutMe extends Component {
           detail-oriented approach to projects. I am excited to join a
           supportive team of fellow developers that prioritizes creativity and a
           “try everything at least once” attitude. When I'm not coding I enjoy
-          acting, playwriting, petting good pups, and playing participating in
-          TackleALZ for the Blondes. Please feel free to reach out!
+          acting, playwriting, petting good pups, and participating as a Blonde
+          for TackleALZ. Please feel free to reach out!
           <br />
           <a href="https://www.instagram.com/okasten/">
             <img
