@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import scheduler from "../schedulerScreenShot.png";
-import monologue from "../monologueScreenShot.png";
-import pong from "../pongScreenShot.png";
+import scheduler from "../Screenshots/schedulerScreenShot.png";
+import monologue from "../Screenshots/monologueScreenShot.png";
+import pong from "../Screenshots/pongScreenShot.png";
 
 export default class Projects extends Component {
   render() {

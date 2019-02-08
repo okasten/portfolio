@@ -196,4 +196,27 @@ label:hover {
 label {
   padding-top: 3%;
   color: white;
+  font-size: 35px;
+}
+
+.demo {
+  align-content: left;
+  display: flex;
+  top: 50%;
+  position: absolute;
+}
+
+.description {
+  font-family: "Poppins", sans-serif;
+  padding: 0% 10%;
+  width: 60%;
+  text-align: left;
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+.idea {
+  font-family: "Poppins", sans-serif;
+  font-size: 23px;
+  width: 80%;
 }
