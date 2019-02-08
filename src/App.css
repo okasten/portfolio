@@ -203,7 +203,6 @@ label {
   align-content: left;
   display: flex;
   top: 50%;
-  position: absolute;
 }
 
 .description {
@@ -218,5 +217,9 @@ label {
 .idea {
   font-family: "Poppins", sans-serif;
   font-size: 23px;
-  width: 80%;
+  width: 40%;
+  top: 500px;
+  position: relative;
+  margin-bottom: 40px;
+  left: 10%;
 }
