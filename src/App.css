@@ -52,6 +52,18 @@
   color: white;
   text-shadow: 2px 2px #000000;
   font-size: 40px;
+  animation-name: name;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+}
+
+@keyframes name {
+  from {
+    color: rgba(255, 255, 255, 0);
+  }
+  to {
+    color: white;
+  }
 }
 
 .headshot {
@@ -139,6 +151,45 @@ label:hover {
   position: absolute;
   font-family: "Poppins", sans-serif;
   font-size: 80px;
+  animation-name: headers;
+  animation-duration: 0.5s;
+  animation-timing-function: ease;
+}
+
+@keyframes headers {
+  0% {
+    left: -1000px;
+  }
+  10% {
+    left: -900px;
+  }
+  20% {
+    left: -800px;
+  }
+  30% {
+    left: -700px;
+  }
+  40% {
+    left: -600px;
+  }
+  50% {
+    left: -500px;
+  }
+  60% {
+    left: -400px;
+  }
+  70% {
+    left: -300px;
+  }
+  80% {
+    left: -200px;
+  }
+  90% {
+    left: -100px;
+  }
+  100% {
+    text-align: center;
+  }
 }
 
 .resume {
@@ -187,9 +238,9 @@ label:hover {
   background-color: rgba(0, 193, 212, 1);
   border: 3px white solid;
   color: white;
-  margin: 2%;
-  width: 750px;
-  height: 450px;
+  margin: 1%;
+  width: 700px;
+  height: 475px;
   align-content: center;
 }
 
@@ -217,9 +268,48 @@ label {
 .idea {
   font-family: "Poppins", sans-serif;
   font-size: 23px;
-  width: 40%;
-  top: 500px;
+  width: 80%;
+  top: 650px;
   position: relative;
   margin-bottom: 40px;
+  padding-top: 40px;
   left: 10%;
+}
+.techStack {
+  margin-top: 300px;
+  width: 100%;
+  padding: 10px 10px;
+  border: 2px white solid;
+  background-color: rgba(0, 193, 212, 1);
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  animation-name: stack;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes stack {
+  0% {
+    background-color: rgba(0, 193, 212, 1);
+  }
+  50% {
+    background-color: rgba(0, 193, 212, 0.2);
+  }
+  100% {
+    background-color: rgba(0, 193, 212, 1);
+  }
+}
+
+.techStack h2 {
+  font-weight: 1000;
+}
+
+.projectPage {
+  top: 200%;
+  left: 10%;
+  max-width: 100%;
+  position: absolute;
+  display: inline-flex;
+  margin-bottom: 40px;
+  font-size: 40px;
 }

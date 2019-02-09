@@ -6,7 +6,7 @@ export default class Scheduler extends Component {
       <div>
         <div className="pageHeaders">
           <h1>Adv.Scheduler</h1>
-          <div className="quickAboutMe">
+          <div className="projectPage">
             <iframe
               width="560"
               height="315"
@@ -41,6 +41,12 @@ export default class Scheduler extends Component {
           with my clients, something that was always incredibly important to me
           when I was learning tennis.
         </p>
+        <div className="techStack">
+          <h2>Tech Stack</h2>
+          <p>
+            React with Redux | JWT Authorization | Ruby on Rails | Bootstrap
+          </p>
+        </div>
       </div>
     );
   }
