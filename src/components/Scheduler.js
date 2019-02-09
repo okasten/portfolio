@@ -44,7 +44,8 @@ export default class Scheduler extends Component {
         <div className="techStack">
           <h2>Tech Stack</h2>
           <p>
-            React with Redux | JWT Authorization | Ruby on Rails | Bootstrap
+            React with Redux | JWT Authorization | Ruby on Rails | Bootstrap |
+            Moment
           </p>
         </div>
       </div>

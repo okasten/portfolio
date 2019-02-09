@@ -156,6 +156,10 @@ label:hover {
   animation-timing-function: ease;
 }
 
+.pong {
+  margin-bottom: -5px;
+}
+
 @keyframes headers {
   0% {
     left: -1000px;
@@ -265,6 +269,15 @@ label {
   margin-top: 20px;
 }
 
+.descriptionMonologue {
+  font-family: "Poppins", sans-serif;
+  padding: 0% 10%;
+  width: 60%;
+  text-align: left;
+  font-size: 22px;
+  margin-top: 10px;
+}
+
 .idea {
   font-family: "Poppins", sans-serif;
   font-size: 23px;
@@ -277,6 +290,19 @@ label {
 }
 .techStack {
   margin-top: 300px;
+  width: 100%;
+  padding: 10px 10px;
+  border: 2px white solid;
+  background-color: rgba(0, 193, 212, 1);
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  animation-name: stack;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+}
+
+.techStackPong {
+  margin-top: 350px;
   width: 100%;
   padding: 10px 10px;
   border: 2px white solid;
@@ -301,6 +327,10 @@ label {
 }
 
 .techStack h2 {
+  font-weight: 1000;
+}
+
+.techStackPong h2 {
   font-weight: 1000;
 }
 
