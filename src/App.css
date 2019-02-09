@@ -210,8 +210,8 @@ label:hover {
   width: 40%;
   position: absolute;
   display: inline-grid;
-  border: 10px white solid;
-  border-radius: 10px;
+  border: 4px white solid;
+  color: white;
 }
 
 .aboutMeImg {
