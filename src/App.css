@@ -157,11 +157,11 @@ label:hover {
 }
 
 .pageHeaders h1 {
-  border: 26px solid transparent;
+  /* border: 26px solid transparent;
   -webkit-border-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkDWXvb1o6XrhPdDqILUpC0LRVOQ3y8GSz82iMUyzpr7ZdGwtZGw")
     42 13 stretch;
   width: 40%;
-  left: 30%;
+  left: 30%; */
   font-weight: bold;
 }
 
