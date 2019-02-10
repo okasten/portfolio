@@ -157,11 +157,12 @@ label:hover {
 }
 
 .pageHeaders h1 {
-  /* border: 26px solid transparent;
-  -webkit-border-image: url("https://i.pinimg.com/originals/1d/c0/e0/1dc0e0c912dec58b916a9c748235dd9b.png")
+  border: 26px solid transparent;
+  -webkit-border-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkDWXvb1o6XrhPdDqILUpC0LRVOQ3y8GSz82iMUyzpr7ZdGwtZGw")
     42 13 stretch;
   width: 40%;
-  left: 30%; */
+  left: 30%;
+  font-weight: bold;
 }
 
 .pong {

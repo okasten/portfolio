@@ -44,8 +44,8 @@ export default class Scheduler extends Component {
         <div className="techStack">
           <h2>Tech Stack</h2>
           <p>
-            React with Redux | JWT Authorization | Ruby on Rails | DarkSky API |
-            Bootstrap | Moment
+            React with Redux | JWT Authorization | Ruby on Rails | Dark Sky API
+            | Bootstrap | Moment
           </p>
         </div>
       </div>
