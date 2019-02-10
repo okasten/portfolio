@@ -7,6 +7,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgba(0, 193, 212, 0.2);
+  background-image: url("http://www.zingerbug.com/Backgrounds/background_images/white_ornate_floral_wallpaper_tileable.jpg");
+  background-blend-mode: overlay;
   overflow-y: scroll;
   height: auto;
   margin-bottom: 20px;

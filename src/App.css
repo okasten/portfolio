@@ -156,6 +156,14 @@ label:hover {
   animation-timing-function: ease;
 }
 
+.pageHeaders h1 {
+  /* border: 26px solid transparent;
+  -webkit-border-image: url("https://i.pinimg.com/originals/1d/c0/e0/1dc0e0c912dec58b916a9c748235dd9b.png")
+    42 13 stretch;
+  width: 40%;
+  left: 30%; */
+}
+
 .pong {
   margin-bottom: -5px;
 }
