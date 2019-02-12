@@ -36,7 +36,6 @@ export default class Projects extends Component {
             <Link to="/pong">
               <label>Pong</label>
             </Link>
-            <br />
             <h5>A recreation of the original Atari Pong</h5>
             <img className="screenshots" src={pong} alt="Pong screenshot" />
           </div>

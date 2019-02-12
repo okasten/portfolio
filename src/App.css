@@ -162,6 +162,7 @@ label:hover {
   width: 40%;
   left: 30%; */
   font-weight: bold;
+  color: #000;
 }
 
 .pong {
@@ -240,22 +241,22 @@ label:hover {
 
 .screenshots {
   margin-top: 2%;
-  width: 300px;
-  height: 300px;
+  margin-left: 10%;
+  width: 450px;
+  height: 275px;
 }
 
 .project {
-  display: inline-block;
+  display: inline-grid;
   font-size: 25px;
   background-color: rgba(0, 193, 212, 1);
-  padding: 10px;
-  border: 1px transparent solid;
-  -webkit-border-image: url("https://www.freeiconspng.com/uploads/lace-border-png-4.png")
-    160 30 stretch;
+  padding: 3px;
+  border: 8px white solid;
+  box-shadow: 0 0 8px 8px rgba(0, 193, 212, 0.2) inset;
   color: white;
   margin: 1%;
-  width: 700px;
-  height: 475px;
+  width: 600px;
+  height: 400px;
   align-content: center;
 }
 
