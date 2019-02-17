@@ -108,11 +108,11 @@
   font-family: "Oswald", sans-serif;
   background-color: rgba(0, 193, 212, 1);
   text-align: left;
-  height: 30px;
+  height: 40px;
   color: white;
   font-size: 25px;
   width: 100%;
-  padding: 20px 40px;
+  padding: 0px 40px 20px 40px;
 }
 .navbarText {
   padding: 5px;
